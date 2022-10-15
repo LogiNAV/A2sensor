@@ -6,12 +6,12 @@ set -x
 #Instalaciones necesarias
 #-------------------------------------------------------------
 
-sudo apt-get install nginx -s
-sudo apt-get install python3-pip -s
-sudo pip3 install flask uwsgi -s
+sudo apt-get install nginx -y
+sudo apt-get install python3-pip -y
+sudo pip3 install flask uwsgi -y
 #----
-sudo pip install -U Jinja2 -s
-sudo pip install PyMySQL -s
+sudo pip install -U Jinja2 -y
+sudo pip install PyMySQL -y
 
 
 #-------------------------------------------------------------

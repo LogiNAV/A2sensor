@@ -56,3 +56,12 @@ systemctl enable estado.service
 #----
 systemctl start consulta.service
 systemctl enable consulta.service
+
+
+#-------------------------------------------------------------
+#Reboot
+#-------------------------------------------------------------
+
+echo "[Reboot]: In 10 seconds ..."
+sleep 10
+reboot
